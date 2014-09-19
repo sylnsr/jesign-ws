@@ -248,8 +248,8 @@ public final class TextSubstitution extends ws.PdfProcessor {
             }
             // bindings must be applied before the DOCX can be exported to HTML / PDF
             BindingHandler.applyBindings(wordMLPackage.getMainDocumentPart());
-            BindingHandler.applyBindings(header);
-            BindingHandler.applyBindings(footer);
+            if (header != null) { BindingHandler.applyBindings(header); }
+            if (footer != null) { BindingHandler.applyBindings(footer); }
             // save as PDF
             wordMLPackage.setFontMapper(new IdentityPlusMapper());
             org.docx4j.convert.out.pdf.PdfConversion conversion = new org.docx4j.convert.out.pdf.viaXSLFO.Conversion(wordMLPackage);
@@ -259,8 +259,6 @@ public final class TextSubstitution extends ws.PdfProcessor {
             // save as new DOCX
             //wordMLPackage.save(new java.io.File(folderPath + "/document.docx"));
 
-            docxFile = null;
-            wordMLPackage = null;
             result = true;
         } catch (Exception exception) {
             this.lastError = exception.getMessage();
