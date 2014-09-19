@@ -149,12 +149,6 @@ public final class TextSubstitution extends ws.PdfProcessor {
                 result.error = "";
             }
 
-
-
-
-
-
-
         // catch for exceptional problems
         } catch (Exception e) {
             result.error = e.getMessage();
@@ -262,6 +256,9 @@ public final class TextSubstitution extends ws.PdfProcessor {
             result = true;
         } catch (Exception exception) {
             this.lastError = exception.getMessage();
+            if (exception.getCause() != null) {
+                this.lastError += "; " + exception.getCause().getMessage();
+            }
         }
         return result;
     }
@@ -310,7 +307,6 @@ public final class TextSubstitution extends ws.PdfProcessor {
         }
         return result;
     }
-
 
     //endregion
 }
