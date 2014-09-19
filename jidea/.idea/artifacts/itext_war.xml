@@ -1,0 +1,72 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="itext:war">
+    <output-path>$PROJECT_DIR$/../build/0.1</output-path>
+    <root id="archive" name="itext-0.1.2.war">
+      <element id="javaee-facet-resources" facet="itext/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="itext" />
+          <element id="module-output" name="common" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.json:json:20140107" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/ha-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/policy.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/fop-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/poi-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/stax-ex.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxb-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxb-xjc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxws-rt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/mimepull.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/saaj-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxb-impl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxws-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/saaj-impl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/stax2-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/FastInoset.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jsr181-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxws-tools.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/xalan-2.7.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/docx4j-2.8.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/log4j-1.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/streambuffer.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/json-20140107.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/wmf2svg-0.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/commons-io-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/gmbal-api-only.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/itextpdf-5.4.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/management-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/servlet-api-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/xml-apis-1.3.04.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/commons-io-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/javax.annotation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxb-svg11-1.0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxb-xslfo-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/serializer-2.7.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/annotations-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/antlr-runtime-3.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/commons-codec-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/commons-codec-1.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/woodstox-core-asl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/poi-scratchpad-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/xhtmlrenderer-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/stringtemplate-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/jaxb-xmldsig-core-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/xmlgraphics-commons-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/org.apache.commons.io-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/avalon-framework-api-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/avalon-framework-impl-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/org.apache.commons.codec-1.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../itext/lib/JAXBNamespacePrefixMapper-2.2.4.jar" />
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="org.apache.directory.studio:org.apache.commons.io:2.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

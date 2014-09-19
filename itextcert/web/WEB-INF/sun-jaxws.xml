@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
+
+
+    <!-- note, these endpoints require bcpkix-jdk15on-1.48.jar and bcprov-jdk15on-1.48.jar -->
+    <endpoint
+            name='Certifier'
+            implementation='itextcert.Certifier'
+            url-pattern='/Certifier'/>
+
+
+</endpoints>

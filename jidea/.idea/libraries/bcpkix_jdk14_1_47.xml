@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bcpkix-jdk14-1.47">
+    <CLASSES>
+      <root url="jar:///System/Library/Java/Extensions/bcpkix-jdk14-1.47.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

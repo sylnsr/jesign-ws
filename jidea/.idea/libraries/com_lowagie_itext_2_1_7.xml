@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="com.lowagie:itext:2.1.7" type="repository">
+    <properties maven-id="com.lowagie:itext:2.1.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../common/lib/itext-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../common/lib/bcmail-jdk14-138.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../common/lib/bcprov-jdk14-138.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../common/lib/bctsp-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../common/lib/bcprov-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../common/lib/bcmail-jdk14-1.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

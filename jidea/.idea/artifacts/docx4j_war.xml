@@ -1,0 +1,75 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="docx4j:war">
+    <output-path>$PROJECT_DIR$/../build/0.1</output-path>
+    <root id="archive" name="docx4j-0.1.war">
+      <element id="javaee-facet-resources" facet="docx4j/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="docx4j" />
+          <element id="module-output" name="common" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/ha-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/policy.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/fop-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/poi-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/stax-ex.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxb-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxb-xjc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxws-rt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/mimepull.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/saaj-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxb-impl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxws-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/saaj-impl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/stax2-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/FastInoset.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jsr181-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/itext-2.1.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxws-tools.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/xalan-2.7.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/docx4j-2.8.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/log4j-1.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/streambuffer.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/json-20140107.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/wmf2svg-0.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/commons-io-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/gmbal-api-only.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/itextpdf-5.4.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/management-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/servlet-api-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/xml-apis-1.3.04.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/commons-io-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/javax.annotation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxb-svg11-1.0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxb-xslfo-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/serializer-2.7.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/annotations-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/antlr-runtime-3.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/commons-codec-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/commons-codec-1.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/woodstox-core-asl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/poi-scratchpad-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/xhtmlrenderer-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/stringtemplate-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/jaxb-xmldsig-core-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/xmlgraphics-commons-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/org.apache.commons.io-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/avalon-framework-api-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/avalon-framework-impl-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/org.apache.commons.codec-1.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../docx4j/lib/JAXBNamespacePrefixMapper-2.2.4.jar" />
+          <element id="library" level="project" name="com.itextpdf:itextpdf:5.4.5" />
+          <element id="library" level="project" name="com.lowagie:itext:2.1.7" />
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="org.docx4j:docx4j:2.8.1" />
+          <element id="library" level="project" name="org.apache.directory.studio:org.apache.commons.io:2.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

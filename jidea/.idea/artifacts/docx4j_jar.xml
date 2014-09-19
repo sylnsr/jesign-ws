@@ -1,0 +1,63 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="docx4j:jar">
+    <output-path>$PROJECT_DIR$/../build/0.1</output-path>
+    <root id="archive" name="docx4j-0.1.jar">
+      <element id="module-output" name="docx4j" />
+      <element id="module-output" name="common" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/ha-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/policy.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/fop-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/poi-3.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/stax-ex.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxb-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxb-xjc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxws-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/mimepull.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/saaj-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxb-impl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxws-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/saaj-impl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/stax2-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/FastInoset.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jsr181-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/antlr-2.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/itext-2.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxws-tools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/xalan-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/docx4j-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/log4j-1.2.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/streambuffer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/json-20140107.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/wmf2svg-0.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/commons-io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/gmbal-api-only.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/itextpdf-5.4.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/management-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/servlet-api-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/xml-apis-1.3.04.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/commons-io-1.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/commons-lang-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/javax.annotation.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxb-svg11-1.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxb-xslfo-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/serializer-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/annotations-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/antlr-runtime-3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/commons-codec-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/commons-codec-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/woodstox-core-asl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/poi-scratchpad-3.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/xhtmlrenderer-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/stringtemplate-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/commons-logging-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/jaxb-xmldsig-core-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/xmlgraphics-commons-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/org.apache.commons.io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/avalon-framework-api-4.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/avalon-framework-impl-4.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/org.apache.commons.codec-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../docx4j/lib/JAXBNamespacePrefixMapper-2.2.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,57 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="itextcert:jar">
+    <output-path>$PROJECT_DIR$/../build/0.1</output-path>
+    <root id="archive" name="itextcert-0.1.jar">
+      <element id="module-output" name="itextcert" />
+      <element id="module-output" name="common" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/ha-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/policy.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/fop-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/stax-ex.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxb-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxb-xjc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxws-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/mimepull.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/saaj-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxb-impl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxws-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/saaj-impl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/stax2-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/FastInoset.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jsr181-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/antlr-2.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxws-tools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/xalan-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/streambuffer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/wmf2svg-0.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/commons-io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/gmbal-api-only.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/management-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/servlet-api-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/xml-apis-1.3.04.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/commons-io-1.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/commons-lang-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/javax.annotation.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxb-svg11-1.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxb-xslfo-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/serializer-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/annotations-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/antlr-runtime-3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/commons-codec-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/commons-codec-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/woodstox-core-asl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/xhtmlrenderer-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/stringtemplate-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/commons-logging-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/jaxb-xmldsig-core-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/xmlgraphics-commons-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/org.apache.commons.io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/avalon-framework-api-4.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/avalon-framework-impl-4.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/org.apache.commons.codec-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextcert/lib/JAXBNamespacePrefixMapper-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../common/lib/itextpdf-5.3.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
