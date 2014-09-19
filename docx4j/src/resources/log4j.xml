@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <!-- To see log output when running samples from within Eclipse,
+         in the Eclipse run dialog, arguments tab, enter the following
+         as a program argument:
+
+         -Dlog4j.configuration=src/main/resources/log4j.xml
+    -->
+
+    <!-- ====================================================================== -->
+    <!-- A P P E N D E R S                                                      -->
+    <!-- ====================================================================== -->
+
+    <!-- console -->
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd.MM.yyyy HH:mm:ss} *%-5p* %c{1}: %m (%F, line %L)%n"/>
+        </layout>
+    </appender>
+    <!-- error.log -->
+    <appender name="error" class="org.apache.log4j.FileAppender">
+        <param name="File" value="logs/docx4j.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd.MM.yyyy HH:mm:ss} *%-5p* %c{1}: %m (%F, line %L)%n"/>
+        </layout>
+    </appender>
+
+    <!-- ====================================================================== -->
+    <!-- L O G G E R S                                                          -->
+    <!-- ====================================================================== -->
+    <!-- This setting causes a message to be added with PDF document export so turn it off -->
+    <!-- See: http://www.docx4java.org/forums/pdf-output-f27/turning-off-logging-in-pdf-output-t772.html -->
+    <!--<level value="info"/>-->
+
+    <logger name="org.apache.commons">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.jaxb">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.document.wordprocessingml">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.openpackaging">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.openpackaging.io">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.openpackaging.packages">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.openpackaging.parts">
+        <level value="off"/>
+    </logger>
+
+    <logger name="org.docx4j.fonts">
+        <level value="off"/>
+    </logger>
+
+    <root>
+        <level value="off" />
+        <appender-ref ref="console"/>
+        <!-- <appender-ref ref="error"/> -->
+    </root>
+
+</log4j:configuration>
