@@ -24,7 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
@@ -43,8 +43,8 @@
     <orderEntry type="library" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" level="project" />
     <orderEntry type="module" module-name="common" />
     <orderEntry type="library" name="com.itextpdf:itextpdf:5.3.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="bcprov-jdk14-1.47" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="bcpkix-jdk14-1.47" level="project" />
+    <orderEntry type="library" exported="" name="bcprov-jdk14-1.47" level="project" />
+    <orderEntry type="library" exported="" name="bcpkix-jdk14-1.47" level="project" />
   </component>
 </module>
 

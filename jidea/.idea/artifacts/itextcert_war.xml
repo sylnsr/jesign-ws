@@ -61,6 +61,8 @@
           <element id="file-copy" path="$PROJECT_DIR$/../itextcert/lib/poi-3.8.jar" />
           <element id="library" level="project" name="com.itextpdf:itextpdf:5.3.4" />
           <element id="file-copy" path="$PROJECT_DIR$/../itextcert/lib/javax.annotation.jar" />
+          <element id="library" level="project" name="bcpkix-jdk14-1.47" />
+          <element id="library" level="project" name="bcprov-jdk14-1.47" />
         </element>
       </element>
       <element id="library" level="project" name="com.itextpdf:itextpdf:5.3.4" />

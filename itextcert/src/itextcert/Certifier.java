@@ -1,11 +1,15 @@
 package itextcert;
 
-import com.itextpdf.text.pdf.PdfSignatureAppearance;
-import com.itextpdf.text.pdf.security.*;
 import com.itextpdf.text.pdf.PdfReader;
+import com.itextpdf.text.pdf.PdfSignatureAppearance;
 import com.itextpdf.text.pdf.PdfStamper;
+import com.itextpdf.text.pdf.security.*;
+import com.itextpdf.text.pdf.security.MakeSignature.CryptoStandard;
 import org.apache.commons.io.IOUtils;
 import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
+import ws.PdfProcessor;
+import ws.PdfProcessorResult;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -13,13 +17,7 @@ import javax.jws.WebService;
 import java.io.*;
 import java.security.KeyStore;
 import java.security.PrivateKey;
-import sun.misc.BASE64Encoder;
-
 import java.security.Security;
-import com.itextpdf.text.pdf.security.MakeSignature.CryptoStandard;
-import ws.PdfProcessor;
-import ws.PdfProcessorResult;
-
 import java.security.cert.Certificate;
 import java.util.Properties;
 

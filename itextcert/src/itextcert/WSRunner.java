@@ -7,6 +7,7 @@ import javax.xml.ws.Endpoint;
 public class WSRunner {
 
     public static void main (String[] args) throws Exception {
+
         int port = 9003;
         if (args.length > 0) {
             if (SimpleParser.IntOrZero(args[0]) > 0) {
@@ -14,7 +15,7 @@ public class WSRunner {
             }
         }
 
-        String address = "http://127.0.0.1:"+port+"/certifier" ;
+        String address = "http://0.0.0.0:"+port+"/certifier" ;
         Endpoint endpoint = Endpoint.publish(address, new Certifier());
 
         System.out.println(address);

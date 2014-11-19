@@ -1,12 +1,21 @@
 package docx4j;
 
+import utils.SimpleParser;
+
 import javax.xml.ws.Endpoint;
 
 public class WSRunner {
 
     public static void main (String[] args) throws Exception {
 
-        String address = "http://127.0.0.1:9001/textsubstitution" ;
+        int port = 9001;
+        if (args.length > 0) {
+            if (SimpleParser.IntOrZero(args[0]) > 0) {
+                port = SimpleParser.IntOrZero(args[0]);
+            }
+        }
+
+        String address = "http://0.0.0.0:"+port+"/textsubstitution" ;
         Endpoint endpoint = Endpoint.publish(address, new TextSubstitution());
 
         System.out.println(address);
