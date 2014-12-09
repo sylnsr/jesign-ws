@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" build-on-make="true" name="itextcert:war">
-    <output-path>$PROJECT_DIR$/../build/0.1</output-path>
-    <root id="archive" name="itextcert-0.1.war">
+    <output-path>/tmp/java-out/</output-path>
+    <root id="archive" name="itextcert-0.2.war">
       <element id="javaee-facet-resources" facet="itextcert/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
