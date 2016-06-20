@@ -8,7 +8,8 @@ The project files are for Intelli-J and will create both .JAR and .WAR artifacts
 
 ## Future plans:
 
-[ ] Implement Grizzly   
+[ ] Implement Grizzly 
+[ ] Implement CLI mode for AWS Lambda
 [ ] Drop .WAR file build  
 [ ] Switch from SOAP to REST  
 [ ] Switch to maven project (use pom.xml)  
