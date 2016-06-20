@@ -8,7 +8,7 @@ The project files are for Intelli-J and will create both .JAR and .WAR artifacts
 
 ## Future plans:
 
-[ ] Implement Grizzly `In progress as of Nov 2015`  
+[ ] Implement Grizzly   
 [ ] Drop .WAR file build  
 [ ] Switch from SOAP to REST  
 [ ] Switch to maven project (use pom.xml)  
